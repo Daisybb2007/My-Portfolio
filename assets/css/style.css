@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 12px 18px;
+    background-color: azure;
+}
+
+header h1 {
+    font-size: 45px;
+    color: darkcyan;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+header nav {
+    float: right;
+    margin: 8px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 35px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color:black;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    background: rgb(115, 155, 133);
+    border: 2px solid rgb(13, 26, 121);
+}
+
+.btn:hover {
+    background: transparent;
+    border-color:indigo;
+    color: rgb(79, 16, 16);
+}
+
+.One {
+    position: relative;
+}
+
+.One h2 {
+    border: 2px solid black;
+    background-color: rgb(80, 193, 80);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: small;
+}
+
+.about-me {
+    display: flex;
+    width: 100%;
+    border: 1px solid violet;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-me-title {
+    padding: 30px;
+}
+
+.about-me-contant {
+    border-left: 5px solid #333;
+    padding: 30px;
+}
+
+.Work {
+    display: flex;
+    width: 100%;
+    border: 1px solid moccasin;
+    padding: 20px;
+    text-align: left;
+}
+
+.Work-title {
+    padding: 40px;
+}
+
+.Work-contant {
+    border-left: 5px solid #333;
+    padding: 20px;
+}
+
+.Contact {
+    display: flex;
+    width: 100%;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: left;
+}
+
+.Contact-Me-Title {
+    padding: 8px;
+}
+
+.Contact-Me {
+    border-left: 5px solid #333;
+    padding: 20px;
+}
+
+.Resume {
+    display: flex;
+    width: 100%;
+    border: 1px solid navy;
+    padding: 20px;
+    text-align: left;
+}
+
+.Resume-Title {
+    padding: 25px;
+}
+
+.Resume-contact {
+    border-left: 5px solid #333;
+    padding: 20px;
+}
+
+footer {
+    background-color: lightcoral;
+    color: darkcyan;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+footer h2 {
+    display: inline;
+    color: aqua;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: blue;
+}
+
+.A .two-img {
+    display: none;
+}
+
+.A:hover .one-img {
+    display: none;
+}
+
+.A:hover .two-img {
+    display: inline;
+}
+
+img {
+    width: 18%;
+    height: 200px;
+    margin-left: 40%;
+    padding: 0;
+}
